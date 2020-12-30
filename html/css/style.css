@@ -1,0 +1,147 @@
+@import url('http://fonts.googleapis.com/css?family=Open Sans:400,600');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #666;
+}
+
+body {
+    background-color: #F3F3F3;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+li a {
+	color: #F33;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: #09F;
+    text-decoration: none;
+}
+
+form[name='login'] input, form[name='register'] input, form[name='change'] input, form[name='reset'] input {
+	max-width: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #F3F3F3;
+}
+
+form[name='login'] input, form[name='register'] input, form[name='change'] input , form[name='reset'] input{
+	max-width: 300px;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+form[name='login'] input[type='submit'], form[name='register'] input[type='submit'], form[name='change'] input[type='submit'], form[name='reset'] input[type='submit'] {
+	max-width: 300px;
+    margin: auto;
+    padding: 15px 10px;
+    background-color: #3BF;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+form[name='login'] input:last-child, form[name='register'] input:last-child, form[name='change'] input:last-child , form[name='reset'] input:last-child{
+    margin-bottom: 0;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    color: #666;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.box {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.box:last-child {
+    margin-bottom: 0;
+}
+
+.title {
+    margin-bottom: 15px;
+    color: #06F;
+    font-weight: 600;
+}
+
+
+#header {
+    padding: 0 20px;
+    background-color: #222;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+#subheader {
+	padding: 0 20px;
+    background-color: #d91420;
+    color: #FFF;
+    text-transform: uppercase;
+	text-align: center;
+    min-height: 65px;
+}
+
+#main {
+    margin: 10px 10px 0;
+}
+
+#navbar {
+    float: right;
+}
+#navbar li {
+    display: inline-block;
+    border-left: #444 solid 1px;
+}
+
+#navbar li a {
+    display: inline-block;
+    padding: 20px 20px;
+    color: #FFF;
+}
+
+#navbar li:last-child {
+    border-right: #444 solid 1px;
+}
+
+#logo {
+    padding: 20px 0;
+}
+
+#footer {
+    clear: both;
+    margin: 10px 20px 0;
+    color: #DDD;
+    text-align: center;
+}
+
+#footer a {
+    margin: 0 10px;
+    color: #999;
+}
